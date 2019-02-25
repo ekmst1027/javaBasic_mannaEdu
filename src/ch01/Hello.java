@@ -2,12 +2,12 @@ package ch01;
 
 public class Hello {
 	public static void main(String[] args) {
-		System.out.println("Ã¹¹øÂ° ÀÚ¹Ù ÇÁ·Î±×·¥");
+		System.out.println("ì²«ë²ˆì§¸ ìžë°” í”„ë¡œê·¸ëž¨");
 	}
 }
-// public : ¸ðµç °÷¿¡¼­ Á¢±Ù °¡´É
-// Å¬·¡½º ÀÌ¸§ : ´ë¼Ò¹®ÀÚ ±¸ºÐ
+// public : ëª¨ë“  ê³³ì—ì„œ ì ‘ê·¼ ê°€ëŠ¥
+// í´ëž˜ìŠ¤ ì´ë¦„ : ëŒ€ì†Œë¬¸ìž êµ¬ë¶„
 // class Hello => Hello.java
-// static : Á¤ÀûÀÎ ¿ä¼Ò
-// void : ¸®ÅÏ°ª(µÇµ¹·ÁÁÖ´Â °ª)ÀÌ ¾øÀ½
-// ; ¼¼¹ÌÄÝ·Ð => ¹®ÀåÀÇ ³¡¿¡ Ç¥½Ã
+// static : ì •ì ì¸ ìš”ì†Œ
+// void : ë¦¬í„´ê°’(ë˜ëŒë ¤ì£¼ëŠ” ê°’)ì´ ì—†ìŒ
+// ; ì„¸ë¯¸ì½œë¡  => ë¬¸ìž¥ì˜ ëì— í‘œì‹œ
