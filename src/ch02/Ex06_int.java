@@ -2,23 +2,23 @@ package ch02;
 
 public class Ex06_int {
 	public static void main(String[] args) {
-		// Á¤¼öÇü º¯¼ö¿¡ °ªÀ» ´ëÀÔ
+		// ì •ìˆ˜í˜• ë³€ìˆ˜ì— ê°’ì„ ëŒ€ì…
 		int num1 = 100;
 		System.out.println(num1);
-		System.out.println(Integer.MIN_VALUE); // ÃÖ´ñ°ª
-		System.out.println(Integer.MAX_VALUE); // ÃÖ¼Ú°ª
-		System.out.println(Integer.SIZE); // ºñÆ®¼ö
+		System.out.println(Integer.MIN_VALUE); // ìµœëŒ“ê°’
+		System.out.println(Integer.MAX_VALUE); // ìµœì†Ÿê°’
+		System.out.println(Integer.SIZE); // ë¹„íŠ¸ìˆ˜
 		
-		// int 4¹ÙÀÌÆ®(32bit), long 8¹ÙÀÌÆ®(64bit)
-		// long ÀÚ·áÇüÀÇ ¼ıÀÚ + L
-		// overflow(¿À¹öÇÃ·Î¿ì)
+		// int 4ë°”ì´íŠ¸(32bit), long 8ë°”ì´íŠ¸(64bit)
+		// long ìë£Œí˜•ì˜ ìˆ«ì + L
+		// overflow(ì˜¤ë²„í”Œë¡œìš°)
 		long num2 = 2147483648L;
 		System.out.println(num2);
 		System.out.println(Long.MIN_VALUE);
 		System.out.println(Long.MAX_VALUE);
 		System.out.println(Long.SIZE);
 		
-		// 1¹ÙÀÌÆ®(8bit)
+		// 1ë°”ì´íŠ¸(8bit)
 		byte num3 = 127;
 		System.out.println(num3);
 		System.out.println(Byte.MIN_VALUE);

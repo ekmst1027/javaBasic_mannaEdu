@@ -2,14 +2,14 @@ package ch02;
 
 public class Ex02_string {
 	public static void main(String[] args) {
-		// ÀÚ·áÇü º¯¼ö¸í = °ª
-		String name = "±èÃ¶¼ö";
+		// ìë£Œí˜• ë³€ìˆ˜ëª… = ê°’
+		String name = "ê¹€ì² ìˆ˜";
 		
-		// ¹®ÀÚ¿­ + ¹®ÀÚ¿­ => ºÙÀÌ±â
-		System.out.println("´ç½ÅÀÇ ÀÌ¸§Àº " + name + "ÀÔ´Ï´Ù.");
+		// ë¬¸ìì—´ + ë¬¸ìì—´ => ë¶™ì´ê¸°
+		System.out.println("ë‹¹ì‹ ì˜ ì´ë¦„ì€ " + name + "ì…ë‹ˆë‹¤.");
 		
 		int a = 10;
 		int b = 20;
-		System.out.println(a + b); // ´õÇÏ±â
+		System.out.println(a + b); // ë”í•˜ê¸°
 	}
 }

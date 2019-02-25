@@ -4,7 +4,7 @@ public class Ex07_double {
 	public static void main(String[] args) {
 //		int num1 = 0.7;
 //		double num1 = 0.7;
-		// Math : ¼öÇĞ °è»êÀ» À§ÇÑ ¸í·É¾îµéÀ» Á¦°øÇÏ´Â Å¬·¡½º
+		// Math : ìˆ˜í•™ ê³„ì‚°ì„ ìœ„í•œ ëª…ë ¹ì–´ë“¤ì„ ì œê³µí•˜ëŠ” í´ë˜ìŠ¤
 		double num1 = Math.PI;
 		System.out.println(num1);
 		
@@ -14,10 +14,10 @@ public class Ex07_double {
 		System.out.println(Double.MAX_VALUE);
 		System.out.println(Double.SIZE);
 		
-		// ÄÄÆÄÀÏ ¿¡·¯(error)
-		// °æ°í(warning)
+		// ì»´íŒŒì¼ ì—ëŸ¬(error)
+		// ê²½ê³ (warning)
 		
-		// ½Ç¼ö°ª+F(f) => float ÀÚ·áÇüÀ¸·Î ÀúÀå(4¹ÙÀÌÆ®)
+		// ì‹¤ìˆ˜ê°’+F(f) => float ìë£Œí˜•ìœ¼ë¡œ ì €ì¥(4ë°”ì´íŠ¸)
 		float num2 = 3.14f;
 		System.out.println(num2);
 		System.out.println(Float.MIN_VALUE);

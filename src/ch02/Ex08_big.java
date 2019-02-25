@@ -3,7 +3,7 @@ package ch02;
 import java.math.BigDecimal;
 
 public class Ex08_big {
-	// ½Ç¼ö°ªÀ» ¿¬»êÇÒ ¶§ ¹ß»ıÇÏ´Â ¿ÀÂ÷
+	// ì‹¤ìˆ˜ê°’ì„ ì—°ì‚°í•  ë•Œ ë°œìƒí•˜ëŠ” ì˜¤ì°¨
 	public static void main(String[] args) {
 		double a = 1.6;
 		double b = 0.1;

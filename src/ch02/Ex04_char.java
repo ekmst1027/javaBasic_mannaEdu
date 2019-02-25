@@ -2,28 +2,28 @@ package ch02;
 
 public class Ex04_char {
 	public static void main(String[] args) {
-		// ¹®ÀÚÇü º¯¼ö ¼±¾ğ
-		// null ¹®ÀÚ
-		char ch = '\0'; // ÀÛÀº µû¿ÈÇ¥·Î ¹­À½ 
+		// ë¬¸ìí˜• ë³€ìˆ˜ ì„ ì–¸
+		// null ë¬¸ì
+		char ch = '\0'; // ì‘ì€ ë”°ì˜´í‘œë¡œ ë¬¶ìŒ 
 		System.out.println(ch);
-		// cast ¿¬»êÀÚ (ÀÚ·áÇü º¯È¯)
-		// ¹®ÀÚ°ªÀ» ¼ıÀÚ°ªÀ¸·Î º¯È¯
+		// cast ì—°ì‚°ì (ìë£Œí˜• ë³€í™˜)
+		// ë¬¸ìê°’ì„ ìˆ«ìê°’ìœ¼ë¡œ ë³€í™˜
 		System.out.println((int)ch);
 		System.out.println(65);
 		System.out.println((char)65);
 		
-		// ¹İº¹¹®
-		// for(ÃÊ±â½Ä; Á¶°Ç½Ä; Áõ°¡°¨¼Ò½Ä)
+		// ë°˜ë³µë¬¸
+		// for(ì´ˆê¸°ì‹; ì¡°ê±´ì‹; ì¦ê°€ê°ì†Œì‹)
 //		for(int i = 0; i < 255; i++) {
 //			System.out.println(i + "==>" + (char)i);
 //		}
-//		for(int i = '°¡'; i <= 'ÇÏ'; i++) {
+//		for(int i = 'ê°€'; i <= 'í•˜'; i++) {
 //			System.out.println(i + "==>" + (char)i);
 //		}
 		
-		String str = ""; // ºó ¹®ÀÚ¿­À» °¡¸®Å´
+		String str = ""; // ë¹ˆ ë¬¸ìì—´ì„ ê°€ë¦¬í‚´
 		System.out.println(str);
-		str = null; // °¡¸®Å°´Â ³»¿ëÀÌ ¾øÀ½
-		str = " "; // °ø¹é ¹®ÀÚ¸¦ °¡¸®Å´
+		str = null; // ê°€ë¦¬í‚¤ëŠ” ë‚´ìš©ì´ ì—†ìŒ
+		str = " "; // ê³µë°± ë¬¸ìë¥¼ ê°€ë¦¬í‚´
 	}
 }

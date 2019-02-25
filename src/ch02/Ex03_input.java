@@ -2,22 +2,22 @@ package ch02;
 
 import java.util.Scanner;
 
-// Ã¹±ÛÀÚ ´ë¹®ÀÚ => Å¬·¡½º
+// ì²«ê¸€ì ëŒ€ë¬¸ì => í´ë˜ìŠ¤
 public class Ex03_input {
 	public static void main(String[] args) {
-		// System.in : Ç¥ÁØ ÀÔ·ÂÀåÄ¡(Å°º¸µå)
+		// System.in : í‘œì¤€ ì…ë ¥ì¥ì¹˜(í‚¤ë³´ë“œ)
 		Scanner scan = new Scanner(System.in);
 		
-		// print() : Ãâ·Â¸¸
-		// println() : Ãâ·Â ÈÄ ÁÙ¹Ù²Ş
+		// print() : ì¶œë ¥ë§Œ
+		// println() : ì¶œë ¥ í›„ ì¤„ë°”ê¿ˆ
 		
-		System.out.print("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
-		// »ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ ³»¿ëÀ» º¯¼ö¿¡ ÀúÀå
+		System.out.print("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+		// ì‚¬ìš©ìê°€ ì…ë ¥í•œ ë‚´ìš©ì„ ë³€ìˆ˜ì— ì €ì¥
 		String name = scan.nextLine();
-		System.out.println("´ç½ÅÀÇ ÀÌ¸§Àº " + name + "ÀÔ´Ï´Ù.");
+		System.out.println("ë‹¹ì‹ ì˜ ì´ë¦„ì€ " + name + "ì…ë‹ˆë‹¤.");
 		
-		System.out.print("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
-		int age = scan.nextInt();	// ¼ıÀÚ ÀÔ·Â
-		System.out.println("´ç½ÅÀÇ ³ªÀÌ´Â " + age + "ÀÔ´Ï´Ù.");
+		System.out.print("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+		int age = scan.nextInt();	// ìˆ«ì ì…ë ¥
+		System.out.println("ë‹¹ì‹ ì˜ ë‚˜ì´ëŠ” " + age + "ì…ë‹ˆë‹¤.");
 	}
 }

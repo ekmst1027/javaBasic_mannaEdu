@@ -2,15 +2,15 @@ package ch02;
 
 public class Ex01_var {
 	public static void main(String[] args) {
-		// Á¤¼öÇü º¯¼ö a ¼±¾ğ
-		// º¯¼ö a¿¡ 100 ÇÒ´ç
+		// ì •ìˆ˜í˜• ë³€ìˆ˜ a ì„ ì–¸
+		// ë³€ìˆ˜ aì— 100 í• ë‹¹
 		// int a = 100;
 		int a = 100;
 		System.out.println(a);
 		
-		char b = 'A'; // ¹®ÀÚÇü º¯¼ö
-		// ¹®ÀÚ => ÀÛÀº µû¿ÈÇ¥
-		// ¹®ÀÚ¿­ => Å« µû¿ÈÇ¥
+		char b = 'A'; // ë¬¸ìí˜• ë³€ìˆ˜
+		// ë¬¸ì => ì‘ì€ ë”°ì˜´í‘œ
+		// ë¬¸ìì—´ => í° ë”°ì˜´í‘œ
 		String str = "hello";
 		System.out.println(str);
 	}

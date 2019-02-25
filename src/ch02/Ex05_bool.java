@@ -2,15 +2,15 @@ package ch02;
 
 public class Ex05_bool {
 	public static void main(String[] args) {
-		// ³í¸®Çü, true Âü, false °ÅÁþ
+		// ë…¼ë¦¬í˜•, true ì°¸, false ê±°ì§“
 		boolean b = true;
 		System.out.println(b);
 		System.out.println(!b);
 		System.out.println(10 > 5);
 		System.out.println(10 < 5);
-		// A = B <= BÀÇ °ªÀ» A¿¡ ´ëÀÔ, assign
+		// A = B <= Bì˜ ê°’ì„ Aì— ëŒ€ìž…, assign
 		// A == B <= equal
-		// A != B <= °°Áö ¾Ê´Ù. not equal
+		// A != B <= ê°™ì§€ ì•Šë‹¤. not equal
 		System.out.println(b == false);
 		System.out.println(b != true);
 	}

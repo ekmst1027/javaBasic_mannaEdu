@@ -4,19 +4,19 @@ public class Test {
 	static int c;
 	
 	
-	// ÇÔ¼ö, method
+	// í•¨ìˆ˜, method
 	public static void main(String[] args) {
-		// ÀÚ·áÇü º¯¼ö;
-		int a;	// º¯¼ö ¼±¾ğ
-		a = 10;	// º¯¼ö a¿¡ 10À» ´ëÀÔ(ÃÊ±âÈ­)
-		// 10 = a; // »ó¼ö´Â ÁÂº¯¿¡ ¿Ã ¼ö ¾øÀ½ 
-		// ÁÂº¯ = ¿ìº¯
+		// ìë£Œí˜• ë³€ìˆ˜;
+		int a;	// ë³€ìˆ˜ ì„ ì–¸
+		a = 10;	// ë³€ìˆ˜ aì— 10ì„ ëŒ€ì…(ì´ˆê¸°í™”)
+		// 10 = a; // ìƒìˆ˜ëŠ” ì¢Œë³€ì— ì˜¬ ìˆ˜ ì—†ìŒ 
+		// ì¢Œë³€ = ìš°ë³€
 		System.out.println(a);
 		a = 20;
 		System.out.println(a);
 		
-		char b; // ¹®ÀÚÇü º¯¼ö ¼±¾ğ
-		b = 'A'; // ÀÛÀº µûÀ½Ç¥·Î ¹­À½
+		char b; // ë¬¸ìí˜• ë³€ìˆ˜ ì„ ì–¸
+		b = 'A'; // ì‘ì€ ë”°ì˜´í‘œë¡œ ë¬¶ìŒ
 		System.out.println(b);
 		
 		System.out.println(c);
