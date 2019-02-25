@@ -2,22 +2,22 @@ package ch04_control;
 
 import java.util.Scanner;
 
-// ÈŞ°¡ÀÏ¼ö °è»ê
-// ±Ù¼Ó¿¬¼ö 1~3³â ==> 3ÀÏ, 4~9³â ==> 5ÀÏ
-// 10³â ÀÌ»ó ==> 10ÀÏ, 20³â ÀÌ»ó ==> 20ÀÏ
+// íœ´ê°€ì¼ìˆ˜ ê³„ì‚°
+// ê·¼ì†ì—°ìˆ˜ 1~3ë…„ ==> 3ì¼, 4~9ë…„ ==> 5ì¼
+// 10ë…„ ì´ìƒ ==> 10ì¼, 20ë…„ ì´ìƒ ==> 20ì¼
 public class Holiday {
 	public static void main(String[] args) {
-		// º¯¼ö ¼±¾ğ
-		int year; // ±Ù¼Ó ¿¬¼ö
-		int days; // ÈŞ°¡ ÀÏ¼ö
+		// ë³€ìˆ˜ ì„ ì–¸
+		int year; // ê·¼ì† ì—°ìˆ˜
+		int days; // íœ´ê°€ ì¼ìˆ˜
 		
-		// ÀÔ·Â
+		// ì…ë ¥
 		Scanner scan = new Scanner(System.in);
-		System.out.print("±Ù¼Ó¿¬¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
-		year = scan.nextInt();	// Å°º¸µå·Î ¼ıÀÚ¸¦ ÀÔ·Â¹ŞÀ½
+		System.out.print("ê·¼ì†ì—°ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+		year = scan.nextInt();	// í‚¤ë³´ë“œë¡œ ìˆ«ìë¥¼ ì…ë ¥ë°›ìŒ
 		scan.close();
 		
-		// °è»ê
+		// ê³„ì‚°
 		if(year <= 3) {
 			days = 3;
 		} else if(year < 10) {
@@ -28,8 +28,8 @@ public class Holiday {
 			days = 20;
 		}
 		
-		//Ãâ·Â
-		System.out.println("´ç½ÅÀÇ ±Ù¼Ó¿¬¼ö´Â " + year + "³âÀÌ°í ");
-		System.out.println("ÈŞ°¡ÀÏ¼ö´Â " + days + "ÀÏÀÔ´Ï´Ù.");
+		// ì¶œë ¥
+		System.out.println("ë‹¹ì‹ ì˜ ê·¼ì†ì—°ìˆ˜ëŠ” " + year + "ë…„ì´ê³  ");
+		System.out.println("íœ´ê°€ì¼ìˆ˜ëŠ” " + days + "ì¼ì…ë‹ˆë‹¤.");
 	}
 }

@@ -2,10 +2,10 @@ package ch04_control;
 
 public class Args {
 	public static void main(String[] args) {
-		// ¹è¿­ÂüÁ¶º¯¼ö.length => ¹è¿­ÀÇ ¿ä¼Ò °¹¼ö
-		// ¹è¿­ÂüÁ¶º¯¼ö[ÀÎµ¦½º] => 0ºÎÅÍ
+		// ë°°ì—´ì°¸ì¡°ë³€ìˆ˜.length => ë°°ì—´ì˜ ìš”ì†Œ ê°¯ìˆ˜
+		// ë°°ì—´ì°¸ì¡°ë³€ìˆ˜[ì¸ë±ìŠ¤] => 0ë¶€í„°
 		for(int i = 0; i < args.length; i++) {
-			System.out.println(i + "¹øÂ° ¸Å°³º¯¼ö : " + args[i]);
+			System.out.println(i + "ë²ˆì§¸ ë§¤ê°œë³€ìˆ˜ : " + args[i]);
 		}
 	}
 }

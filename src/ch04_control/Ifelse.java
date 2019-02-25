@@ -6,29 +6,29 @@ public class Ifelse {
 		int mat = 90;
 		int eng = 70;
 		
-		int tot = kor + eng + mat; // ÃÑÁ¡
-		double avg = tot / 3.0;	// Æò±Õ
+		int tot = kor + eng + mat; // ì´ì 
+		double avg = tot / 3.0;	// í‰ê· 
 		
-		String grade = "";	// µî±Ş(¼ö¿ì¹Ì¾ç°¡)
+		String grade = "";	// ë“±ê¸‰(ìˆ˜ìš°ë¯¸ì–‘ê°€)
 		
 		if(avg >= 90) {
-			grade = "¼ö";
+			grade = "ìˆ˜";
 		} else if(avg >= 80) {
-			grade = "¿ì";
+			grade = "ìš°";
 		} else if(avg >= 70) {
-			grade = "¹Ì";
+			grade = "ë¯¸";
 		} else if(avg >= 60) {
-			grade = "¾ç";
+			grade = "ì–‘";
 		} else {
-			grade = "°¡";
+			grade = "ê°€";
 		}
 		
-		// °á°ú Ãâ·Â
-		System.out.println("±¹¾î\t¿µ¾î\t¼öÇĞ\tÃÑÁ¡\tÆò±Õ\tµî±Ş");
-		// String.format("Ãâ·ÂÇü½Ä", Ãâ·ÂÇÒ°ª)
-		// % º¯¼öÀÇ °ªÀÌ Ãâ·ÂµÉ À§Ä¡
-		// %.1f ½Ç¼öÇü(¼Ò¼öÃ¹Â°ÀÚ¸®±îÁö Ãâ·Â), ÀüÃ¼ÀÚ¸®¼ö´Â ÀÚµ¿
-		// Ãâ·ÂÇü½Ä : %s ¹®ÀÚ¿­Çü½Ä, %d Á¤¼öÇü, %f ½Ç¼öÇü
+		// ê²°ê³¼ ì¶œë ¥ 
+		System.out.println("êµ­ì–´\tì˜ì–´\tìˆ˜í•™\tì´ì \tí‰ê· \të“±ê¸‰");
+		// String.format("ì¶œë ¥í˜•ì‹", ì¶œë ¥í• ê°’)
+		// % ë³€ìˆ˜ì˜ ê°’ì´ ì¶œë ¥ë  ìœ„ì¹˜
+		// %.1f ì‹¤ìˆ˜í˜•(ì†Œìˆ˜ì²«ì§¸ìë¦¬ê¹Œì§€ ì¶œë ¥), ì „ì²´ìë¦¬ìˆ˜ëŠ” ìë™
+		// ì¶œë ¥í˜•ì‹ : %s ë¬¸ìì—´í˜•ì‹, %d ì •ìˆ˜í˜•, %f ì‹¤ìˆ˜í˜•
 		System.out.println(
 				kor+"\t"+eng+"\t"+mat+"\t"+tot+"\t"+String.format("%.1f", avg)+"\t"+grade
 				);

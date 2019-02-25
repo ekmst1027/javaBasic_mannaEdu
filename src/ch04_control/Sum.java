@@ -6,12 +6,12 @@ public class Sum {
 	public static void main(String[] args) {
 //		int num = 10;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		int num = sc.nextInt();
 		int sum = 0;
 		for(int i = 1; i <= num; i++) {
 			sum += i;
 		}
-		System.out.println("ÇÕ°è : " + sum);
+		System.out.println("í•©ê³„ : " + sum);
 	}
 }

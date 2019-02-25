@@ -6,14 +6,14 @@ public class If {
 	public static void main(String[] args) {
 //		int a = 5;
 		Scanner scan = new Scanner(System.in);
-		System.out.print("¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");	// ¾È³»¹®
-		int a = scan.nextInt();	// Á¤¼ö ÀÔ·Â
+		System.out.print("ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");	// ì•ˆë‚´ë¬¸
+		int a = scan.nextInt();	// ì •ìˆ˜ ìž…ë ¥
 		
-		// if(Á¶°Ç½Ä)
-		if(a % 2 == 0) {	// trueÀÏ ¶§ 
-			System.out.println(a + " ==> Â¦¼öÀÔ´Ï´Ù.");
-		} else {	// falseÀÏ ¶§
-			System.out.println(a + " ==> È¦¼öÀÔ´Ï´Ù.");
+		// if(ì¡°ê±´ì‹)
+		if(a % 2 == 0) {	// trueì¼ ë•Œ 
+			System.out.println(a + " ==> ì§ìˆ˜ìž…ë‹ˆë‹¤.");
+		} else {	// falseì¼ ë•Œ
+			System.out.println(a + " ==> í™€ìˆ˜ìž…ë‹ˆë‹¤.");
 		}
 		
 	}

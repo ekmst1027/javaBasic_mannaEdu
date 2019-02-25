@@ -2,19 +2,19 @@ package ch04_control;
 
 public class For {
 	public static void main(String[] args) {
-		// args ½ºÆ®¸µ ¹è¿­ÂüÁ¶º¯¼ö
-		// Integer.parseInt(¹®ÀÚ¿­) => ¼ıÀÚ·Î º¯È¯
+		// args ìŠ¤íŠ¸ë§ ë°°ì—´ì°¸ì¡°ë³€ìˆ˜
+		// Integer.parseInt(ë¬¸ìì—´) => ìˆ«ìë¡œ ë³€í™˜
 		// "100" => 100
-		// ¹è¿­ÂüÁ¶º¯¼ö.length => ¹è¿­ÀÇ Å©±â
+		// ë°°ì—´ì°¸ì¡°ë³€ìˆ˜.length => ë°°ì—´ì˜ í¬ê¸°
 		if(args.length == 0) {
-			System.out.println("¸í·ÉÇà ¸Å°³º¯¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
-			System.exit(0);	// ÇÁ·Î±×·¥ °­Á¦ Á¾·á
+			System.out.println("ëª…ë ¹í–‰ ë§¤ê°œë³€ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
+			System.exit(0);	// í”„ë¡œê·¸ë¨ ê°•ì œ ì¢…ë£Œ
 		}
 		
 		int num = Integer.parseInt(args[0]);
-		// for(ÃÊ±â½Ä; Á¶°Ç½Ä; Áõ°¨½Ä)
-		// Á¶°Ç½ÄÀÌ trueÀÏµ¿¾È ¹İº¹ Ã³¸®
-		// ¹«ÇÑ·çÇÁ ÁÖÀÇ
+		// for(ì´ˆê¸°ì‹; ì¡°ê±´ì‹; ì¦ê°ì‹)
+		// ì¡°ê±´ì‹ì´ trueì¼ë™ì•ˆ ë°˜ë³µ ì²˜ë¦¬
+		// ë¬´í•œë£¨í”„ ì£¼ì˜
 		for(int i = 1; i <= num; i++) {
 			System.out.println(i);
 		}

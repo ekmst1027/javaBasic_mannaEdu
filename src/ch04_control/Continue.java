@@ -3,7 +3,7 @@ package ch04_control;
 public class Continue {
 	public static void main(String[] args) {
 		for(int i = 1; i < 10; i++) {
-			// 5ÀÇ ¹è¼ö´Â Ãâ·ÂÇÏÁö ¾ÊÀ½
+			// 5ì˜ ë°°ìˆ˜ëŠ” ì¶œë ¥í•˜ì§€ ì•ŠìŒ
 			if(i % 3 == 0) {
 				System.out.println();
 				continue;

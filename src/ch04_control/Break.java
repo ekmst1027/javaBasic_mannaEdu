@@ -3,9 +3,9 @@ package ch04_control;
 public class Break {
 	public static void main(String[] args) {
 		int i = 1;
-		while(true) {	// นซวันÝบน
+		while(true) {	// ๋ฌดํ•๋ฐ๋ณต
 			System.out.println(i++);
-			if(i > 10) break;	// นÝบนนฎภป นþพ๎ณฒ(ลปรโนฎ)
+			if(i > 10) break;	// ๋ฐ๋ณต๋ฌธ์ ๋ฒ—์–ด๋จ(ํ์ถ๋ฌธ)
 		}
 	}
 }

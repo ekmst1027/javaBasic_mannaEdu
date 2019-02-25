@@ -2,11 +2,11 @@ package ch04_control;
 
 public class While {
 	public static void main(String[] args) {
-		// 1~10±îÁö Ãâ·Â
-		int i = 1;	// ÃÊ±â½Ä
-		while(i <= 10) {	// Á¶°Ç½ÄÀÌ trueÀÏ µ¿¾È
+		// 1~10ê¹Œì§€ ì¶œë ¥
+		int i = 1;	// ì´ˆê¸°ì‹
+		while(i <= 10) {	// ì¡°ê±´ì‹ì´ trueì¼ ë™ì•ˆ
 			System.out.println(i);
-			i++;	// Áõ°¨½Ä(¹«ÇÑ·çÇÁ)
+			i++;	// ì¦ê°ì‹(ë¬´í•œë£¨í”„)
 		}
 	}
 }

@@ -3,10 +3,10 @@ package ch04_control;
 public class Multi {
 	public static void main(String[] args) {
 		long num = 20;
-		long sum = 1; // ÇÕ°è¸¦ ÀúÀåÇÒ º¯¼ö 
+		long sum = 1; // í•©ê³„ë¥¼ ì €ìž¥í•  ë³€ìˆ˜ 
 		for(int i = 1; i <= num; i++) {
 			sum *= i;
 		}
-		System.out.println("1ºÎÅÍ " + num + "±îÁöÀÇ °ö : " + sum);
+		System.out.println("1ë¶€í„° " + num + "ê¹Œì§€ì˜ ê³± : " + sum);
 	}
 }

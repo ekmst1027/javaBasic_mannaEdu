@@ -1,16 +1,16 @@
 package ch04_control;
 
-// ÁßÃ¸ for¹®(´ÙÁßfor¹®)
+// ì¤‘ì²© forë¬¸(ë‹¤ì¤‘ forë¬¸)
 public class Star {
 	public static void main(String[] args) {
 		for(int i = 1; i <= 5; i++) {
 			for(int j = 1; j <= i; j++) {
 				System.out.print("*");
 			}
-			System.out.println();	// ÁÙ¹Ù²Þ¸¸
+			System.out.println();	// ì¤„ë°”ê¿ˆë§Œ
 		}
 		System.out.println();
-		// ¿ª»ï°¢Çü
+		// ì—­ì‚¼ê°í˜•
 		for(int i = 5; i >= 1; i--) {
 			for(int j = 1; j <= i; j++) {
 				System.out.print("*");

@@ -2,41 +2,41 @@ package ch04_control;
 
 import java.util.Scanner;
 
-// ¹è¼Û·á °è»ê(±¸¸Å±İ¾×ÀÌ 2¸¸¿ø ÀÌ»óÀÌ¸é ¹è¼Û·á ¸éÁ¦, ¾Æ´Ï¸é 2000¿ø,
-// Æ÷ÀÎÆ® Àû¸³ ±İ¾×ÀÌ 1¸¸¿ø ÀÌ»óÀÌ¸é Æ÷ÀÎÆ® »ç¿ë °¡´É
+// ë°°ì†¡ë£Œ ê³„ì‚°(êµ¬ë§¤ê¸ˆì•¡ì´ 2ë§Œì› ì´ìƒì´ë©´ ë°°ì†¡ë£Œ ë©´ì œ, ì•„ë‹ˆë©´ 2000ì›,
+// í¬ì¸íŠ¸ ì ë¦½ ê¸ˆì•¡ì´ 1ë§Œì› ì´ìƒì´ë©´ í¬ì¸íŠ¸ ì‚¬ìš© ê°€ëŠ¥
 public class Cost {
 	public static void main(String[] args) {
-		// º¯¼ö ¼±¾ğ
-		String name = ""; // ÀÌ¸§
-		int price = 0;	// ±¸¸Å±İ¾×
-		int point = 0;	// Æ÷ÀÎÆ®
-		int point_use = 0;	// Æ÷ÀÎÆ® »ç¿ë¾×
-		int fee = 0;	// ¹è¼Û·á
-		int pay;	// ½ÇÁ¦ °áÁ¦±İ¾×
-		// ÀÚ·á ÀÔ·Â(¼±ÅÃ)
+		// ë³€ìˆ˜ ì„ ì–¸
+		String name = ""; // ì´ë¦„
+		int price = 0;	// êµ¬ë§¤ê¸ˆì•¡
+		int point = 0;	// í¬ì¸íŠ¸
+		int point_use = 0;	// í¬ì¸íŠ¸ ì‚¬ìš©ì•¡
+		int fee = 0;	// ë°°ì†¡ë£Œ
+		int pay;	// ì‹¤ì œ ê²°ì œê¸ˆì•¡
+		// ìë£Œ ì…ë ¥(ì„ íƒ)
 		Scanner scan = new Scanner(System.in);
-		System.out.print("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		name = scan.nextLine();
-		System.out.print("°¡°İÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ê°€ê²©ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		price = scan.nextInt();
-		System.out.print("Æ÷ÀÎÆ®¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("í¬ì¸íŠ¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		point = scan.nextInt();
 		
-		// ±¸¸Å±İ¾×ÀÌ 2¸¸¿ø ¹Ì¸¸ÀÌ¸é ¹è¼Û·á 2Ãµ¿ø
+		// êµ¬ë§¤ê¸ˆì•¡ì´ 2ë§Œì› ë¯¸ë§Œì´ë©´ ë°°ì†¡ë£Œ 2ì²œì›
 		if(price < 20000) {
 			fee = 2000;
 		}
 		
-		// Æ÷ÀÎÆ® Àû¸³¾×ÀÌ 1¸¸¿ø ÀÌ»óÀÌ¸é Æ÷ÀÎÆ® »ç¿ë °¡´É
+		// í¬ì¸íŠ¸ ì ë¦½ì•¡ì´ 1ë§Œì› ì´ìƒì´ë©´ í¬ì¸íŠ¸ ì‚¬ìš© ê°€ëŠ¥
 		if(point >= 10000) {
 			point_use = point;
 			pay = price + fee - point;
 		} else {
 			pay = price + fee;
 		}
-		System.out.println("ÀÌ¸§\t±¸¸Å±İ¾×\t¹è¼Û·á\tÆ÷ÀÎÆ®»ç¿ë\t\t°áÁ¦±İ¾×");
-		// String.format("Ãâ·ÂÇü½Ä", Ãâ·ÂÇÒ°ª)
-		// %d : Á¤¼öÇü => %,d : Ãµ´ÜÀ§ ÄŞ¸¶ Ãß°¡
+		System.out.println("ì´ë¦„\têµ¬ë§¤ê¸ˆì•¡\të°°ì†¡ë£Œ\tí¬ì¸íŠ¸ì‚¬ìš©\t\tê²°ì œê¸ˆì•¡");
+		// String.format("ì¶œë ¥í˜•ì‹", ì¶œë ¥í• ê°’)
+		// %d : ì •ìˆ˜í˜• => %,d : ì²œë‹¨ìœ„ ì½¤ë§ˆ ì¶”ê°€
 		System.out.println(name + "\t" + price + "\t" + fee + "\t" + point_use + "\t\t" + String.format("%,d", pay));
 	}
 

@@ -2,13 +2,13 @@ package ch04_control;
 
 public class While2 {
 	public static void main(String[] args) {
-		int i = 1;	// ÃÊ±â½Ä
+		int i = 1;	// ì´ˆê¸°ì‹
 		int num = 10;
 		int sum = 0;
-		while(i <= num) {	// Á¶°Ç½Ä
+		while(i <= num) {	// ì¡°ê±´ì‹
 			sum += i;
-			i++;	// Áõ°¨½Ä
+			i++;	// ì¦ê°ì‹
 		}
-		System.out.println("1~" + num + "±îÁöÀÇ ÇÕ°è : " + sum);
+		System.out.println("1~" + num + "ê¹Œì§€ì˜ í•©ê³„ : " + sum);
 	}
 }

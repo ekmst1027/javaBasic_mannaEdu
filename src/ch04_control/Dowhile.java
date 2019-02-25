@@ -2,10 +2,10 @@ package ch04_control;
 
 public class Dowhile {
 	public static void main(String[] args) {
-		int i = 1;	// ÃÊ±â½Ä
+		int i = 1;	// ì´ˆê¸°ì‹
 		do {
 			System.out.println(i);
-			i++; // Áõ°¨½Ä
-		} while (i <= 10); // Á¶°Ç½Ä
+			i++; // ì¦ê°ì‹
+		} while (i <= 10); // ì¡°ê±´ì‹
 	}
 }
