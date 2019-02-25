@@ -2,7 +2,7 @@ package ch03_operator;
 
 public class BitNot {
 	public static void main(String[] args) {
-		// ~ ¿¬»êÀÚ(ºñÆ®°ªÀ» ¹ÝÀü½ÃÅ´, 0À» 1·Î, 1À» 0À¸·Î)
+		// ~ ì—°ì‚°ìž(ë¹„íŠ¸ê°’ì„ ë°˜ì „ì‹œí‚´, 0ì„ 1ë¡œ, 1ì„ 0ìœ¼ë¡œ)
 		byte a = 10;
 		System.out.println(a); // 00001010 => 11110101
 		System.out.println(~a); // bit not

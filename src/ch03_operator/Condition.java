@@ -3,9 +3,9 @@ package ch03_operator;
 public class Condition {
 	public static void main(String[] args) {
 		int num = -5;
-//		Á¶°Ç½Ä ? ÂüÀÏ¶§ÀÇ °ª : °ÅÁşÀÏ¶§ÀÇ °ª
+//		ì¡°ê±´ì‹ ? ì°¸ì¼ë•Œì˜ ê°’ : ê±°ì§“ì¼ë•Œì˜ ê°’
 //		System.out.println(num > 0 ? num : -num);
-		System.out.println(num > 0 ? num : -num);	// Àı´ë°ªÀ» Ãâ·ÂÇÏ´Â ÄÚµå
+		System.out.println(num > 0 ? num : -num);	// ì ˆëŒ€ê°’ì„ ì¶œë ¥í•˜ëŠ” ì½”ë“œ
 		
 		if(num > 0) {
 			System.out.println(num);

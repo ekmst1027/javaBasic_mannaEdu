@@ -2,7 +2,7 @@ package ch03_operator;
 
 public class Bit {
 	public static void main(String[] args) {
-		// ºñÆ®¿¬»êÀÚ( | or, & and, ^ xor)
+		// ë¹„íŠ¸ì—°ì‚°ì( | or, & and, ^ xor)
 		// 00000011
 		// 00000101
 		System.out.println(3 | 5);	// 00000111 (7)

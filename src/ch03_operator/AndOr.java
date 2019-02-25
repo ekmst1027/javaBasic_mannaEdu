@@ -3,8 +3,8 @@ package ch03_operator;
 public class AndOr {
 	public static void main(String[] args) {
 		int a = 7;
-		// A && B => A, B ¸ðµÎ True
-		// A || B => µÑ Áß ÇÏ³ª¸¸ True
+		// A && B => A, B ëª¨ë‘ True
+		// A || B => ë‘˜ ì¤‘ í•˜ë‚˜ë§Œ True
 		System.out.println(a > 5 && a < 0);
 		System.out.println(a > 5 || a < 0);
 	}

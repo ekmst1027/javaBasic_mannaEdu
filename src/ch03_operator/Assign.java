@@ -8,7 +8,7 @@ public class Assign {
 		b /= 5; // b = b / 5;
 		System.out.println(b);
 		a = 12;
-		// 00001100 >> 2 ¿ìÃø½ÃÇÁÆ® => 00000011 (3)
+		// 00001100 >> 2 ìš°ì¸¡ì‹œí”„íŠ¸ => 00000011 (3)
 		a >>= 2; // a = a >> 2;
 		System.out.println(a);
 	}

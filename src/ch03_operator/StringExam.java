@@ -3,11 +3,11 @@ package ch03_operator;
 public class StringExam {
 	public static void main(String[] args) {
 		
-		// ¹®ÀÚ¿­ + ¹®ÀÚ¿­ => ¹®ÀÚ¿­ ¿¬°á
+		// ë¬¸ìì—´ + ë¬¸ìì—´ => ë¬¸ìì—´ ì—°ê²°
 		String str = "Hello " + "java";
 		System.out.println(str);
 		
-		// ¼ıÀÚ + ¹®ÀÚ¿­ => ¹®ÀÚ¿­·Î º¯È¯ ÈÄ ¿¬°á
+		// ìˆ«ì + ë¬¸ìì—´ => ë¬¸ìì—´ë¡œ ë³€í™˜ í›„ ì—°ê²°
 		str = 123 + "C";
 		System.out.println(str);
 	}

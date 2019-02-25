@@ -3,7 +3,7 @@ package ch03_operator;
 public class Shift {
 	public static void main(String[] args) {
 		int a = 2;
-		// aÀÇ °ªÀ» ÁÂÃøÀ¸·Î 2ºñÆ®¾¿ ½ÃÇÁÆ®(¹Ğ¾î³»±â)
+		// aì˜ ê°’ì„ ì¢Œì¸¡ìœ¼ë¡œ 2ë¹„íŠ¸ì”© ì‹œí”„íŠ¸(ë°€ì–´ë‚´ê¸°)
 		int b = a << 2; // 00000010 => 00001000 (2 => 8)
 		System.out.println(b);
 		b = b >> 2;  //  00001000 => 00000010 (8 => 2)

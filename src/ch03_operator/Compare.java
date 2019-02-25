@@ -3,20 +3,20 @@ package ch03_operator;
 public class Compare {
 	public static void main(String[] args) {
 		int a = 65;
-		char c = 'A'; // ¼ıÀÚ 65·Î ÀúÀåµÊ
-		// A == B : A¿Í B°¡ °°´Ù
+		char c = 'A'; // ìˆ«ì 65ë¡œ ì €ì¥ë¨
+		// A == B : Aì™€ Bê°€ ê°™ë‹¤
 		
-		// ÀÚµ¿Çüº¯È¯ : ÀÛÀº ÀÚ·áÇüÀ» Å« ÀÚ·áÇüÀ¸·Î º¯È¯
+		// ìë™í˜•ë³€í™˜ : ì‘ì€ ìë£Œí˜•ì„ í° ìë£Œí˜•ìœ¼ë¡œ ë³€í™˜
 		
 		// char(2) int (4)
 		System.out.println(a == c);
 		
-		// A = B : BÀÇ °ªÀ» A¿¡ ´ëÀÔ 
+		// A = B : Bì˜ ê°’ì„ Aì— ëŒ€ì… 
 		System.out.println(a = c);
 		
-		// compile error(ÄÄÆÄÀÏ ¿¡·¯)
-		// warning(°æ°í)
-		// A != B : °°Áö ¾Ê´Ù
+		// compile error(ì»´íŒŒì¼ ì—ëŸ¬)
+		// warning(ê²½ê³ )
+		// A != B : ê°™ì§€ ì•Šë‹¤
 		System.out.println('A' != 65);
 	}
 }

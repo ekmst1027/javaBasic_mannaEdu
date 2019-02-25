@@ -2,41 +2,41 @@ package ch03_operator;
 
 import java.util.Scanner;
 
-// ±¹¾î, ¿µ¾î, ¼öÇĞ Á¡¼ö¸¦ ÀÔ·Â¹Ş¾Æ ÃÑÁ¡, Æò±Õ Ãâ·Â
+// êµ­ì–´, ì˜ì–´, ìˆ˜í•™ ì ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ ì´ì , í‰ê·  ì¶œë ¥
 public class Point {
 	public static void main(String[] args) {
-		// º¯¼ö ¼±¾ğ
+		// ë³€ìˆ˜ ì„ ì–¸
 		String name;
 		int kor, eng, mat, tot;
 		double avg;
 		
-		// ÀÔ·Â °´Ã¼ »ı¼º
-		// Scanner : Å°º¸µå ÀÔ·Â Áö¿ø Å¬·¡½º
-		// System.in : Ç¥ÁØÀÔ·ÂÀåÄ¡(Å°º¸µå)
+		// ì…ë ¥ ê°ì²´ ìƒì„±
+		// Scanner : í‚¤ë³´ë“œ ì…ë ¥ ì§€ì› í´ë˜ìŠ¤
+		// System.in : í‘œì¤€ì…ë ¥ì¥ì¹˜(í‚¤ë³´ë“œ)
 		Scanner scan = new Scanner(System.in);
-		System.out.print("ÀÌ¸§ : ");
-		name = scan.nextLine();	// ½ºÆ®¸µ(ÇÑÁÙ)
-		System.out.print("±¹¾î Á¡¼ö : ");
-		kor = scan.nextInt();	// Á¤ ÀÔ·Â
-		System.out.print("¼öÇĞ Á¡¼ö : ");
-		eng = scan.nextInt();	// Á¤¼ö ÀÔ·Â
-		System.out.print("¿µ¾î Á¡¼ö : ");
-		mat = scan.nextInt();	// Á¤¼ö ÀÔ·Â
-		scan.close();	// ½ºÄ³³Ê °´Ã¼°¡ »ç¿ëÁßÀÎ ¸Ş¸ğ¸® Á¤¸®
+		System.out.print("ì´ë¦„ : ");
+		name = scan.nextLine();	// ìŠ¤íŠ¸ë§(í•œì¤„)
+		System.out.print("êµ­ì–´ ì ìˆ˜ : ");
+		kor = scan.nextInt();	// ì •ìˆ˜ ì…ë ¥
+		System.out.print("ìˆ˜í•™ ì ìˆ˜ : ");
+		eng = scan.nextInt();	// ì •ìˆ˜ ì…ë ¥
+		System.out.print("ì˜ì–´ ì ìˆ˜ : ");
+		mat = scan.nextInt();	// ì •ìˆ˜ ì…ë ¥
+		scan.close();	// ìŠ¤ìºë„ˆ ê°ì²´ê°€ ì‚¬ìš©ì¤‘ì¸ ë©”ëª¨ë¦¬ ì •ë¦¬
 		
-		// °è»ê
-		tot = kor + eng + mat;	// ÃÑÁ¡
-		avg = tot / 3.0;	// Æò±Õ
+		// ê³„ì‚°
+		tot = kor + eng + mat;	// ì´ì 
+		avg = tot / 3.0;	// í‰ê· 
 		
-		// °á°ú Ãâ·Â
-		System.out.println("ÀÌ¸§\t±¹¾î\t¿µ¾î\t¼öÇĞ\tÃÑÁ¡\tÆò±Õ");
+		// ê²°ê³¼ ì¶œë ¥
+		System.out.println("ì´ë¦„\têµ­ì–´\tì˜ì–´\tìˆ˜í•™\tì´ì \tí‰ê· ");
 		System.out.printf(
 				"%s\t%d\t%d\t%d\t%d\t%5.1f",
 				name, kor, eng, mat, tot, avg
 				);
-		// String.format("Ãâ·ÂÇü½Ä", Ãâ·ÂÇÒ°ªµé)
-		// % Ãâ·ÂÇÒ À§Ä¡
-		// ÀüÂ÷ÀÚ¸®¼ö.¼Ò¼öÀÌÇÏÀÚ¸®¼ö
-		// f ½Ç¼öÇü, d Á¤¼öÇü, s ¹®ÀÚ¿­
+		// String.format("ì¶œë ¥í˜•ì‹", ì¶œë ¥í• ê°’ë“¤)
+		// % ì¶œë ¥í•  ìœ„ì¹˜
+		// ì „ì²´ìë¦¬ìˆ˜.ì†Œìˆ˜ì´í•˜ìë¦¬ìˆ˜
+		// f ì‹¤ìˆ˜í˜•, d ì •ìˆ˜í˜•, s ë¬¸ìì—´
 	}
 }
