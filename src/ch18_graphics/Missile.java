@@ -1,5 +1,6 @@
 package ch18_graphics;
 
+// 게임에 쓰일 미사일 클래스
 public class Missile {
 	private int mx;	// x 좌표 
 	private int my;	// y 좌표
