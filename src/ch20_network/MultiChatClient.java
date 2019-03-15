@@ -15,8 +15,6 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-
 // GUI멀티채팅(클라이언트용 프로그램)
 public class MultiChatClient {
 	static String nickName = null;	// 대화명
